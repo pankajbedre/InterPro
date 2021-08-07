@@ -1,0 +1,99 @@
+/* Initial headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* initial bootstrap */
+.col {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+.f-mont {
+  font-family: "Montserrat", sans-serif;
+}
+.f-qksd {
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  padding: 1em 0;
+}
+main {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  padding: 15vh 0;
+}
+.posts-container {
+  padding: 0.5em;
+}
+.post-outer {
+  padding: 1em;
+}
+.post-inner {
+  background-color: white;
+  border-radius: 15px;
+}
+.post-title {
+  border-radius: 15px 15px 0 0;
+  padding: 0.5em 1em;
+  background-color: #4717f6;
+  color: white;
+  /* background-image: linear-gradient(to bottom, #4717f6, #ffffff); */
+}
+.post-title div {
+  margin: 0.3em 0;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  color: #262626;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-title h5 {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post-title-exp {
+  white-space: normal !important;
+}
+.post-body {
+  padding: 0.5em 1em 1em;
+}
+.post-body p {
+  max-height: 7vh;
+  overflow: hidden;
+}
+.post-body-exp {
+  max-height: none !important;
+}
+.expand {
+  text-align: center;
+  width: 100%;
+}
+.expand span {
+  font-size: 1.9em;
+  color: #262626;
+}
+.post-expand-exp{
+    transform: rotate(180deg);
+}
